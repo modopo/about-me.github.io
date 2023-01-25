@@ -7,7 +7,8 @@ ul {
 
 h1,
 h2,
-p {
+p,
+main {
   text-align: center;
 }
 
@@ -24,20 +25,6 @@ p {
   padding: 10px;
   text-align: left
 }
-
-main {
-  text-align: center;
-}
-
-button {
-  margin-top: 5%;
-}
-
-img {
-  height: 10%;
-  width: 10%;
-}
-
 
 .bio {
   text-align: center;
