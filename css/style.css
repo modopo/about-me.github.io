@@ -1,0 +1,61 @@
+body,
+h1,
+p,
+ul {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  padding: 10px;
+  text-align: left
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  margin-top: 5%;
+}
+
+img {
+  height: 10%;
+  width: 10%;
+}
+
+
+.bio {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+.basic_info {
+  margin: 20px;
+  text-align: center;
+}
+
+.basic_info ul {
+  display: inline-block;
+  list-style-type: disc;
+}
+
+.basic_info li {
+  text-align: left;
+}
