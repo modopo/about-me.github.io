@@ -6,7 +6,6 @@ ul {
 }
 
 h1,
-h2,
 p,
 main {
   text-align: center;
@@ -18,7 +17,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 p {
@@ -26,23 +26,33 @@ p {
   text-align: left
 }
 
+ul {
+  display: inline-block;
+  list-style-type: disc;
+}
+
+li {
+  text-align: left;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 1rem;
+}
+
+.top_ten {
+  text-align: left;
+  padding: 1rem;
+}
+
 .bio {
-  text-align: center;
-  width: 1000px;
+  text-align: auto;
+  width: 80%;
   margin: auto;
   border: 3px solid #73AD21;
 }
 
 .basic_info {
-  margin: 20px;
+  margin: 5px;
   text-align: center;
-}
-
-.basic_info ul {
-  display: inline-block;
-  list-style-type: disc;
-}
-
-.basic_info li {
-  text-align: left;
 }
