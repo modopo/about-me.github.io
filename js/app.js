@@ -45,7 +45,7 @@ while (attempt <= NUMBER_MAX_GUESS) {
 
   if (answer % 1 !== 0 && attempt !== 4) {
     alert(`That's an invalid input. We'll have to count that as an attempt. You have ${NUMBER_MAX_GUESS - attempt} attempts left to guess the number.`);
-  } else if (Number(answer) === RANDOM_NUMBER) {
+  } else if (answer === RANDOM_NUMBER) {
     alert(`You got it! The number I chose was ${RANDOM_NUMBER}. You got the right number in ${attempt} guess(es)!`);
     score++;
     break;
