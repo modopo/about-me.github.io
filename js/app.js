@@ -1,9 +1,5 @@
 'use strict';
 
-const USERNAME = prompt('But first! What\'s your name?');
-
-alert(`Welcome ${USERNAME}! Here's a quick game quiz. Please input with a simple yes/no, y/n, a whole number or the provided choices. If you submit nothing, it'll count against you.`);
-
 const FIVE_Q = ['Is the default color for the sky blue?', 'Is Earth flat?', 'Is fire hot?', 'Is this the fourth question?', 'Does 2+2 = 4?'];
 const FIVE_Q_SOLUTION = ['y', 'n', 'y', 'y', 'y'];
 const RANDOM_NUMBER = Math.floor(Math.random() * 10);
@@ -16,6 +12,10 @@ const CHOICE_MAX_GUESS = 6;
 let score = 0;
 let attempt = 0;
 let answer;
+
+const USERNAME = prompt('But first! What\'s your name?');
+
+alert(`Welcome ${USERNAME}! Here's a quick game quiz. Please input with a simple yes/no, y/n, a whole number or the provided choices. If you submit nothing, it'll count against you.`);
 
 for (let idx = 0; idx < FIVE_Q.length; idx++) {
   answer = prompt(`${FIVE_Q[idx]}`).toLowerCase();
