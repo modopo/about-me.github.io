@@ -17,6 +17,8 @@ const USERNAME = prompt('But first! What\'s your name?');
 
 alert(`Welcome ${USERNAME}! Here's a quick game quiz. Please input with a simple yes/no, y/n, a whole number or the provided choices. If you submit nothing, it'll count against you.`);
 
+
+//5 guestions
 for (let idx = 0; idx < FIVE_Q.length; idx++) {
   answer = prompt(`${FIVE_Q[idx]}`).toLowerCase();
 
@@ -32,6 +34,7 @@ for (let idx = 0; idx < FIVE_Q.length; idx++) {
   }
 }
 
+//guess the random number
 alert('Let\'s change it up. Guess the number I randomly picked between 0 and 10 inclusive in 4 tries!');
 
 while (attempt <= NUMBER_MAX_GUESS) {
@@ -56,6 +59,7 @@ while (attempt <= NUMBER_MAX_GUESS) {
   }
 }
 
+//Pick the right answer
 alert('Let\'s change it up again. I\'ll ask a multiple choice question instead. You\'ll get 6 attempts to get it right, but as long as you pick one correctly, then you\'re done!');
 attempt = 0;
 let possibleChoices = '';
