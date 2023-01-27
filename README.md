@@ -14,7 +14,7 @@ This page was regressed to not include functions, eventListener or button as men
 An invalid input would be counted agaisnt the user, purposely failing the attempt.
 
 The accessibility score screenshot is shown here:
-![alt text](img/lab_3.png)
+![alt text](img/lab_03.png)
 
 # Lab -4
 
