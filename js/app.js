@@ -21,8 +21,6 @@ gameOne();
 gameTwo();
 gameThree();
 
-
-
 //5 guestions
 function gameOne() {
   for (let idx = 0; idx < FIVE_Q.length; idx++) {
