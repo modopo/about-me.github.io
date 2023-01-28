@@ -1,38 +1,35 @@
-body,
-h1,
-p,
-ul {
-  font-family: "Lato", sans-serif;
+body, h1, p, ul {
+  font-family: "Raleway", sans-serif;
 }
 
-h1,
-p,
-main {
+h1, p, main {
   text-align: center;
+  color: #e0e1dd;
 }
 
 h1 {
   font-size: 3rem;
-  padding: 20px;
 }
 
 h2 {
-  padding: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+  color: #1b263b;
+}
+
+h3 {
+  padding: 3%;
   font-size: 1.5rem;
 }
 
 p {
-  padding: 10px;
-  text-align: left
+  padding: 3rem;
+  text-align: left;
 }
 
 ul {
   display: inline-block;
-  list-style-type: disc;
-}
-
-li {
-  text-align: left;
 }
 
 ol {
@@ -43,16 +40,56 @@ ol {
 .top_ten {
   text-align: left;
   padding: 1rem;
-}
-
-.bio {
-  text-align: auto;
-  width: 80%;
-  margin: auto;
-  border: 3px solid #73AD21;
+  background-color: #778da9;
 }
 
 .basic_info {
-  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.basic_info li {
+  margin: 2%;
+  display: inline;
   text-align: center;
+}
+
+.work_list_title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+
+}
+
+.work li {
+  text-align: center;
+  display: inline;
+}
+
+.bio {
+  background-color: #415a77;
+}
+
+.about {
+  background-color: #e0e1dd;
+  padding: 5%;
+  color: #1b263b;
+}
+
+.name {
+  aspect-ratio: auto;
+  background-color: #0d1b2a;
+  height: 100%;
+  margin: 0;
+  padding: 10%;
+}
+
+.highlight {
+  color: #e63946;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }

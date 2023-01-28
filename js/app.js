@@ -6,7 +6,7 @@ const RANDOM_NUMBER = Math.floor(Math.random() * 10);
 
 const NUMBER_MAX_GUESS = 4;
 
-const MULTIPLE_CHOICE_ANSWERS = ['blue', 'yellow', 'red', 'orange', 'purple', 'green', 'white', 'black', 'coral', 'beige', 'teal', 'amber'];
+const MULTIPLE_CHOICE_ANSWERS = ['blue', 'yellow', 'red', 'orange', 'purple', 'green', 'white', 'black'];
 const CHOICE_MAX_GUESS = 6;
 
 let score = 0;
@@ -74,6 +74,7 @@ function gameTwo() {
 //Pick the right answer
 function gameThree() {
   alert('Let\'s change it up again. I\'ll ask a multiple choice question instead. You\'ll get 6 attempts to get it right, but as long as you pick one correctly, then you\'re done!');
+
   attempt = 0;
   let possibleChoices = '';
 
@@ -86,7 +87,6 @@ function gameThree() {
     answer = prompt('What\'s one of my favorite colors? Here are some choices:' + '\n' + possibleChoices).toLowerCase();
     attempt++;
 
-    console.log(answer);
     let validInput = false;
     for (let idx = 0; idx < MULTIPLE_CHOICE_ANSWERS.length; idx++) {
       if (answer === MULTIPLE_CHOICE_ANSWERS[idx]) {
