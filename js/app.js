@@ -13,13 +13,18 @@ let score = 0;
 let attempt = 0;
 let answer;
 
-const USERNAME = prompt('But first! What\'s your name?');
+//start the quiz
+function startGame() {
+  const USERNAME = prompt('But first! What\'s your name?');
 
-alert(`Welcome ${USERNAME}! Here's a quick game quiz. Please input with a simple yes/no, y/n, a whole number or the provided choices. If you submit nothing, it'll count against you.`);
+  alert(`Welcome ${USERNAME}! Here's a quick game quiz. Please input with a simple yes/no, y/n, a whole number or the provided choices. If you submit nothing, it'll count against you.`);
 
-gameOne();
-gameTwo();
-gameThree();
+  gameOne();
+  gameTwo();
+  gameThree();
+
+  alert(`Thanks for taking the game quiz ${USERNAME}! You scored ${score} out of 7 questions asked.`);
+}
 
 //5 guestions
 function gameOne() {
@@ -106,4 +111,5 @@ function gameThree() {
   }
 }
 
-alert(`Thanks for taking the game quiz ${USERNAME}! You scored ${score} out of 7 questions asked.`);
+//invoke the quiz
+startGame();
