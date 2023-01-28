@@ -16,6 +16,9 @@ An invalid input would be counted agaisnt the user, purposely failing the attemp
 The accessibility score screenshot is shown here:
 ![alt text](img/lab_03.png)
 
-# Lab -4
+# Lab - 4
 
 * Driver - Zachariah | Navigator - Jon Tsai
+
+# Lab - 5b
+![alt text](img/lab_05b.PNG)
